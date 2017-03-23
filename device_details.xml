@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<asr9k>
+   <device id="asr9k6">
+      <upstream_interface>GigabitEthernet0/1/0/2</upstream_interface>
+      <interfaces>GigabitEthernet0/1/0/0-2</interfaces>
+      <sub_int_id>8000</sub_int_id>
+  </device>
+   <device id="asr9k1">
+      <upstream_interface>GigabitEthernet0/1/0/2</upstream_interface>
+      <interfaces>GigabitEthernet0/1/0/0-2,GigabitEthernet0/1/0/8,GigabitEthernet0/1/0/10</interfaces>
+      <sub_int_id>6000</sub_int_id>
+      <bridge_group>autonomic_1</bridge_group>
+      <bridge_domain>autonomic_1</bridge_domain>
+   </device>
+</asr9k>
